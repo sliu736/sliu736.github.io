@@ -19,8 +19,8 @@
 
 ### Algorithms from scratch
 
-- [Two Robust Clustering Algorithms and Their Applications](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- [Two Robust Clustering Algorithms and Their Applications](/mdfiles/BIRCH.html)
+<img src="images/6.png?raw=true"/>
 
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
