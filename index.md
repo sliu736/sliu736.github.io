@@ -4,7 +4,7 @@
 
 ### Data Analysis
 
-[Project 1 Title](/mdfiles/BIRCH.html)
+[Project 1 Title](sample_page.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
