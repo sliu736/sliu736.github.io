@@ -5,7 +5,8 @@
 ### Data Analysis
 
 [Cryptocurrency Pair Analysis using CHTC](Cryptocurrency Pair Analysis.html)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+<img src="images/8.png?raw=true"/>
 
 ---
 
