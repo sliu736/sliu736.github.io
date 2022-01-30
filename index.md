@@ -19,7 +19,7 @@
 
 ### Algorithms from scratch
 
-- [Two Robust Clustering Algorithms and Their Applications](/mdfiles/BIRCH.html)
+- [Two Robust Clustering Algorithms and Their Applications](/pdf/BIRCH.pdf)
 <img src="images/6.png?raw=true"/>
 
 ### Data Visualization
