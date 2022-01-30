@@ -22,7 +22,10 @@
 - [Two Robust Clustering Algorithms and Their Applications](/mdfiles/BIRCH.html)
 <img src="images/6.png?raw=true"/>
 
-- [Project 2 Title](http://example.com/)
+### Data Visualization
+- [Yelp Review Analysis on Gyms](https://sliu736.shinyapps.io/STAT628_module3/)
+<img src="images/7.png?raw=true"/>
+
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
