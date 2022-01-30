@@ -12,7 +12,7 @@
 
 ### Implement algorithms from scratch
 
-- [Two Robust Clustering Algorithms and Their Applications](/pdf/BIRCH.md)
+- [Two Robust Clustering Algorithms and Their Applications](BIRCH.html)
 <img src="images/6.png?raw=true"/>
 
 ---

@@ -21,29 +21,29 @@ BIRCH(Balanced Iterative Reducing and Clustering using Hierarchies), proposed by
 
 1. Let $B=L=3$, $T=0.1$: Insert the first point, construct a new node. 
 
-   <img src="./image-20220129191747819.png" alt="image-20220129191747819" style="zoom:50%;" />
+   <img src="images/image-20220129191747819.png" alt="image-20220129191747819" style="zoom:50%;" />
 
 2. Add in a new point, according to $T$ and the distance between the node and the new point, judge whether could be added in the same node(here the answer is yes).
 
 3. Repeat 2, construct a new node and a root node to connect the 2 nodes together.
 
-   <img src="./image-20220129191715217.png" alt="image-20220129191715217" style="zoom:50%;" />
+   <img src="images/image-20220129191715217.png" alt="image-20220129191715217" style="zoom:50%;" />
 
 4. Keep repeating step 2(3). 
 
-   <img src="./image-20220129191704124.png" alt="image-20220129191704124" style="zoom:50%;" />
+   <img src="images/image-20220129191704124.png" alt="image-20220129191704124" style="zoom:50%;" />
 
 5. Add in a new point. The pink Node1 contains 4 leaves, which is larger than $L$.  
 
-   <img src="./image-20220129191638591.png" alt="image-20220129191638591" style="zoom:50%;" />
+   <img src="images/image-20220129191638591.png" alt="image-20220129191638591" style="zoom:50%;" />
 
 6. Split Node1 into Node1' and Node1'' according to the distances between the clusters(nodes). The Root node contains 4 internal nodes, which is larger than $B$. 
 
-   <img src="./image-20220129191601970.png" alt="image-20220129191601970" style="zoom:50%;" />
+   <img src="images/image-20220129191601970.png" alt="image-20220129191601970" style="zoom:50%;" />
 
 7. Split Root node into Node0' and Node0'', and increase the tree height(construct a new root node).
 
-   <img src="./image-20220129191544537.png" alt="image-20220129191544537" style="zoom:50%;" />
+   <img src="images/image-20220129191544537.png" alt="image-20220129191544537" style="zoom:50%;" />
 
 ## Codes in R
 
@@ -215,11 +215,11 @@ Extract<-function(depth, CI=1:length(CFtree[[depth]])){
 
 - Sensitive to $T$ Parameter
 
-![1](./1.png)
+![1](images/1.png)
 
 - Show ineffective results when facing with nonspherical clusters
 
-![2](./2.png)
+![2](images/2.png)
 
 # ROCK
 
@@ -436,17 +436,13 @@ LableonDisk<-function(dataset,samp,theta,funct,type){
 
 ## Visualization
 
-- Not sensitive to $\theta$ parameter
+![3](images/3.png)
 
-![3](./3.png)
-
-- Perform well for continuous data
-
-![4](./4.png)
+![4](images/4.png)
 
 - Perform well on simulated descrete data set
 
-![5](./5.png)
+![5](images/5.png)
 
 
 
