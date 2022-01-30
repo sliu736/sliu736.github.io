@@ -4,7 +4,7 @@
 
 ### Data Analysis
 
-[Project 1 Title](sample_page.md)
+[Cryptocurrency Pair Analysis using CHTC](Cryptocurrency Pair Analysis.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
